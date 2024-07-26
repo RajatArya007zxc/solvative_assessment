@@ -1,0 +1,19 @@
+.limit-input {
+    display: flex;
+    align-items: center;
+  }
+  
+  .limit-input label {
+    margin-right: 10px;
+  }
+  
+  .limit-input input {
+    width: 50px;
+    padding: 5px;
+  }
+  
+  @media (max-width: 400px) {
+    .limit-input {
+      margin-top: 10px;
+    }
+  }
